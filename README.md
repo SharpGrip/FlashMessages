@@ -18,13 +18,14 @@ public void ConfigureServices(IServiceCollection services)
 ## Configuration
 
 ### Properties
-| Property      | Default value                              | Description                                                                      |
-| ------------- | ------------------------------------------ | -------------------------------------------------------------------------------  |
-| StorageKey    | `"__FlashMessages__"`                      | The key used to store message data in the `ITempDataDictionary` session storage. |
+| Property   | Default value       | Description                                                                      |
+| ---------- | ------------------- | -------------------------------------------------------------------------------- |
+| StorageKey | `__FlashMessages__` | The key used to store message data in the `ITempDataDictionary` session storage. |
 
 ### Via the `services.AddFlashMessages()` extension method
 ```
 using SharpGrip.FlashMessages.Extensions;
+using SharpGrip.FlashMessages.Options;
 
 public void ConfigureServices(IServiceCollection services)
 {
@@ -38,6 +39,7 @@ public void ConfigureServices(IServiceCollection services)
 ### Via the `services.Configure()` method
 ```
 using SharpGrip.FlashMessages.Extensions;
+using SharpGrip.FlashMessages.Options;
 
 public void ConfigureServices(IServiceCollection services)
 {
