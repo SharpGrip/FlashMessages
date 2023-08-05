@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashMessages", "FlashMessages\FlashMessages.csproj", "{FFCB0E4E-E9F9-461E-971A-8205BE06AE3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApp", "TestWebApp\TestWebApp.csproj", "{CADBABCC-FE35-4B68-9406-3C126468CA2D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,9 +12,5 @@ Global
 		{FFCB0E4E-E9F9-461E-971A-8205BE06AE3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFCB0E4E-E9F9-461E-971A-8205BE06AE3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFCB0E4E-E9F9-461E-971A-8205BE06AE3C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CADBABCC-FE35-4B68-9406-3C126468CA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CADBABCC-FE35-4B68-9406-3C126468CA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CADBABCC-FE35-4B68-9406-3C126468CA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CADBABCC-FE35-4B68-9406-3C126468CA2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

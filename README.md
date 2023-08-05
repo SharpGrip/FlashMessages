@@ -1,5 +1,14 @@
 # SharpGrip FlashMessages [![NuGet](https://img.shields.io/nuget/v/SharpGrip.FlashMessages)](https://www.nuget.org/packages/SharpGrip.FlashMessages)
 
+## Builds
+[![FlashMessages [Build]](https://github.com/SharpGrip/FlashMessages/actions/workflows/Build.yaml/badge.svg)](https://github.com/SharpGrip/FlashMessages/actions/workflows/Build.yaml)
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=SharpGrip_FlashMessages&metric=alert_status)](https://sonarcloud.io/summary/overall?id=SharpGrip_FlashMessages) \
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=SharpGrip_FlashMessages&metric=sqale_rating)](https://sonarcloud.io/summary/overall?id=SharpGrip_FlashMessages) \
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=SharpGrip_FlashMessages&metric=reliability_rating)](https://sonarcloud.io/summary/overall?id=SharpGrip_FlashMessages) \
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=SharpGrip_FlashMessages&metric=security_rating)](https://sonarcloud.io/summary/overall?id=SharpGrip_FlashMessages) \
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=SharpGrip_FlashMessages&metric=coverage)](https://sonarcloud.io/summary/overall?id=SharpGrip_FlashMessages)
+
 ## Introduction
 SharpGrip FlashMessages is a messaging system for adding and reading flash messages.
 

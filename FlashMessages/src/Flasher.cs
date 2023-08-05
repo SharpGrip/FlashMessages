@@ -15,10 +15,7 @@ namespace SharpGrip.FlashMessages
         private readonly string storageKey;
         private IList<Message> Messages { get; } = new List<Message>();
 
-        public Flasher(
-            ITempDataDictionaryFactory tempDataDictionaryFactory,
-            IHttpContextAccessor httpContextAccessor,
-            IOptions<FlashMessagesOptions> options)
+        public Flasher(ITempDataDictionaryFactory tempDataDictionaryFactory, IHttpContextAccessor httpContextAccessor, IOptions<FlashMessagesOptions> options)
         {
             tempDataDictionary = tempDataDictionaryFactory.GetTempData(httpContextAccessor.HttpContext);
             storageKey = options.Value.StorageKey;

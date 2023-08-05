@@ -16,7 +16,7 @@ namespace SharpGrip.FlashMessages.Extensions
 
             return new List<Message>();
         }
-        
+
         public static IEnumerable<Message> PeekMessages(this ITempDataDictionary tempDataDictionary, string storageKey)
         {
             if (tempDataDictionary.Peek(storageKey) != null)
