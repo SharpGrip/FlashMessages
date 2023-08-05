@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <LangVersion>8.0</LangVersion>
         <AssemblyName>SharpGrip.FlashMessages</AssemblyName>
-        <PackageVersion>1.0.0-alpha1</PackageVersion>
+        <PackageVersion>1.0.0</PackageVersion>
         <Company>SharpGrip</Company>
         <PackageId>SharpGrip.FlashMessages</PackageId>
         <Authors>SharpGrip</Authors>
