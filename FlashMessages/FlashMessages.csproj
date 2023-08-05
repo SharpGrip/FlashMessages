@@ -1,24 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
         <RootNamespace>SharpGrip.FlashMessages</RootNamespace>
-        <Nullable>enable</Nullable>
-        <LangVersion>8.0</LangVersion>
+    </PropertyGroup>
+
+    <PropertyGroup>
         <AssemblyName>SharpGrip.FlashMessages</AssemblyName>
-        <PackageVersion>1.0.0</PackageVersion>
-        <Company>SharpGrip</Company>
         <PackageId>SharpGrip.FlashMessages</PackageId>
-        <Authors>SharpGrip</Authors>
         <Title>SharpGrip FlashMessages</Title>
         <Description>SharpGrip FlashMessages is a messaging system for adding and reading flash messages.</Description>
-        <Summary>SharpGrip FlashMessages is a messaging system for adding and reading flash messages.</Summary>
-        <Copyright>SharpGrip</Copyright>
-        <License>MIT</License>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <RepositoryUrl>https://github.com/SharpGrip/FlashMessages</RepositoryUrl>
-        <PackageProjectUrl>https://github.com/SharpGrip/FlashMessages</PackageProjectUrl>
-        <RepositoryType>git</RepositoryType>
+        <PackageTags>sharpgrip;flasher;flash-messages</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
